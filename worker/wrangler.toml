@@ -1,0 +1,10 @@
+# Only needed if you deploy with the Wrangler CLI instead of the Cloudflare dashboard.
+# Secrets: `wrangler secret put ANTHROPIC_API_KEY`
+name = "kalshi-killa"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+FIREBASE_PROJECT_ID = ""
+ALLOWED_ORIGIN = "https://burnzzzstock-ops.github.io"
+ALLOWED_EMAILS = ""
