@@ -11,5 +11,5 @@ export const config = {
   },
   // Your Cloudflare Worker address with /parse on the end,
   // e.g. "https://kalshi-killa.yourname.workers.dev/parse"
-  parseUrl: "",
+  parseUrl: "https://kalshi-killa.burnzzzstock.workers.dev/parse",
 };
